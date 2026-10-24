@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f8fafc;
+            color: #1e293b;
+            text-align: center; 
+        }
+        .hero { 
+            background: linear-gradient(135deg, #2563eb, #1d4ed8); 
+            color: white; 
+            padding: 4rem 1.5rem; 
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #e0e7ff;
+        }
+        .btn { 
+            background-color: #ffffff; 
+            color: #2563eb; 
+            padding: 12px 28px; 
+            border: none; 
+            text-decoration: none; 
+            font-weight: bold; 
+            border-radius: 6px; 
+            display: inline-block;
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .btn:hover {
+            background-color: #f1f5f9;
+            transform: translateY(-2px);
+        }
+        .features { 
+            display: flex; 
+            justify-content: center; 
+            gap: 2rem; 
+            padding: 4rem 1.5rem; 
+            flex-wrap: wrap;
+        }
+        .card { 
+            background: white;
+            border: 1px solid #e2e8f0; 
+            padding: 2rem; 
+            border-radius: 12px; 
+            width: 250px; 
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            color: #0f172a;
+            margin-bottom: 0.5rem;
+        }
+        .card p {
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Discover Our New Product</h1>
+        <p>Build better and faster web applications today with modern tools.</p>
+        <a href="#" class="btn">Get Started</a>
+    </header>
+
+    <main class="features">
+        <div class="card">
+            <h3>⚡ High Performance</h3>
+            <p>Optimized for lightning-fast load times and smooth rendering.</p>
+        </div>
+        <div class="card">
+            <h3>📱 Fully Responsive</h3>
+            <p>Looks and works seamlessly across desktop, tablet, and mobile devices.</p>
+        </div>
+        <div class="card">
+            <h3>🎨 Clean Design</h3>
+            <p>Built with accessible HTML5 elements and modern CSS components.</p>
+        </div>
+    </main>
+
+</body>
+</html>
